@@ -3,4 +3,5 @@
     <string name="title">Title</string>
     <string name="ean_code">EAN</string>
     <string name="further_info">Further Information</string>
+    <string name="cool_cam">Cool Cam</string>
 </resources>
