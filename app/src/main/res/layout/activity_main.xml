@@ -8,12 +8,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-  <ImageView
-      android:layout_width="match_parent"
-      android:layout_height="200dp"
-      android:id="@+id/imageViewBarCode"
-      android:src="@drawable/barcode_proteinpudding"/>
-    <Button
+  <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Scan"
@@ -30,11 +25,16 @@
       android:text="Button" />
 
 
+  <ImageView
+      android:id="@+id/imageViewBarCode"
+      android:layout_width="match_parent"
+      android:layout_height="200dp"
+      android:src="@drawable/barcode_proteinpudding" />
+
   <Button
       android:id="@+id/myButton"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:background="@drawable/rounded_button"
       android:backgroundTint="@color/red"
       android:text="Fuck you!"
       android:textColor="#FFFFFF" />
